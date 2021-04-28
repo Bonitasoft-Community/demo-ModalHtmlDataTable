@@ -62,11 +62,11 @@ jobs:
         with:
           ref: ${{ steps.previoustag.outputs.tag }}
 
-      - name: Build and test archetype
+      - name: Build
         id: build-and-test
         run: |
           echo "build ${{ steps.previoustag.outputs.tag }}"
-          ./mvnw clean verify
+          ./mvnw clean assembly:single
 
       - name: Get version from pom
         id: get-version
@@ -98,6 +98,7 @@ jobs:
 
       - name: Rename .zip to .bos
         run: |
+          ls -ltr target
           cp target/${{ steps.get-version.outputs.final-name }}.zip target/${{ steps.get-version.outputs.final-name }}.bos
           ls -ltr target
 
