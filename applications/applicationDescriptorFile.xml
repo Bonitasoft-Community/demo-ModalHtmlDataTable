@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="myApp" version="1.0" profile="User" homePage="home" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>My App</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_demoDataTableModal" token="home"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="home">
+                <displayName>home</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
