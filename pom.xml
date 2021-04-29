@@ -55,7 +55,7 @@
 	</build>
 
 	<scm>
-		<url>https://github.com/laurentleseigneur/demo-ModalHtmlDataTable</url>
+		<url>https://github.com/Bonitasoft-Community/demo-ModalHtmlDataTable</url>
 		<developerConnection>scm:git:${project.scm.url}.git</developerConnection>
 		<connection>scm:git:${project.scm.url}.git</connection>
 		<tag>HEAD</tag>
