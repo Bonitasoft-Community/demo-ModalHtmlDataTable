@@ -24,14 +24,12 @@
 				<include>restAPIExtensions/**</include>
 				<include>themes/**</include>
 				<include>xsd/**</include>
-				<include>profiles/**</include>
 				<include>src-groovy/**</include>
 				<include>src-filters/**</include>
 				<include>src-connectors/**</include>
 				<include>applications/**</include>
 				<include>attachments/**</include>
 				<include>diagrams/**</include>
-				<include>environements/**</include>
 				<include>filters-conf/**</include>
 				<include>filters-def/**</include>
 				<include>filters-impl/**</include>
@@ -41,13 +39,15 @@
 				<include>process_configurations/**</include>
 				<include>lib/**</include>
 				<include>kpis/**</include>
-				<include>organizations/**</include>
 				<include>bdm/**</include>
 			</includes>
 			<excludes>
 				<exclude>**/node/**</exclude>
 				<exclude>**/node_modules/**</exclude>
 				<exclude>**/target/**</exclude>
+				<exclude>environements/**</exclude>
+				<exclude>profiles/**</exclude>
+				<exclude>organizations/**</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>
