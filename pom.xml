@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bonitasoft.examples</groupId>
 	<artifactId>demoDataTableModal</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.5</version>
 	<packaging>pom</packaging>
 
 	<name>Data Table with modal</name>
@@ -58,7 +58,7 @@
 		<url>https://github.com/Bonitasoft-Community/demo-ModalHtmlDataTable</url>
 		<developerConnection>scm:git:${project.scm.url}.git</developerConnection>
 		<connection>scm:git:${project.scm.url}.git</connection>
-		<tag>HEAD</tag>
+		<tag>1.0.5</tag>
 	</scm>
 
 </project>
